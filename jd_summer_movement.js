@@ -834,7 +834,8 @@ function aabbiill(){
   if(new Date().getUTCHours() + 8 >= 18 && new Date().getUTCHours() + 8 < 24){
     ccdd = 1
   }else{
-    ccdd = getRndInteger(0,3)
+//    ccdd = getRndInteger(0,3)
+    ccdd = 1
   }
   return ccdd == 1
 }
